@@ -4,44 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        section {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #666;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-
+    
 <!-- Subpage 1 -->
 <section id="subpage1">
-    <h1>Subpage 1</h1>
+    <h1>Machine Learning</h1>
     <div>
-        <h2>Machine Learning</h2>
-        <button onclick="window.location.href='w1_gradient_discent.html'">Gradient Discent</button>
-        <button onclick="window.location.href='https://example.com/link2'">Link 2</button>
-        <button onclick="window.location.href='https://example.com/link3'">Link 3</button>
+        <h2>Author: Richard</h2>
+        <button onclick="window.location.href='w1_gradient_discent.html'">Gradient Discent and Linear Regression</button>
+        <button onclick="window.location.href='w2_cfm_logreg.html'">Confusio Matrix and Log Regression</button>
+        <button onclick="window.location.href='w3_Lasso_and_ridge.html'">Lasso and ridge reg</button>
         <button onclick="window.location.href='https://example.com/link4'">Link 4</button>
-        <button onclick="window.location.href='https://example.com/link5'">Link 5</button>
-        <button onclick="window.location.href='https://example.com/link6'">Link 6</button>
-        <button onclick="window.location.href='https://example.com/link7'">Link 7</button>
-        <button onclick="window.location.href='https://example.com/link8'">Link 8</button>
-        <button onclick="window.location.href='https://example.com/link9'">Link 9</button>
-        <button onclick="window.location.href='https://example.com/link10'">Link 10</button>
+        <button onclick="window.location.href='w5_dtree.html'">Decision Trees</button>
+        <button onclick="window.location.href='w6_neural.html'">Neural Network, RNN</button>
+        <button onclick="window.location.href='https://example.com/link7'">Large_language_model</button>
+        <button onclick="window.location.href='w8_randfor_ensemble.html'">Random Forest, Ensemble</button>
+        <button onclick="window.location.href='w9_clustering_pca.html'">Clustering, PCA</button>
+        <button onclick="window.location.href='https://example.com/link10'">Reinforced Learning</button>
     </div>
 </section>
 
 <!-- Subpage 2 -->
 <section id="subpage2">
-    <h1>Subpage 2</h1>
+    <h1>Machine Learning Laboratory</h1>
     <div>
-        <h2>Machine Learning Lab</h2>
-        <button onclick="window.location.href='https://example.com/link11'">Link 11</button>
-        <button onclick="window.location.href='https://example.com/link12'">Link 12</button>
-        <button onclick="window.location.href='https://example.com/link13'">Link 13</button>
-        <button onclick="window.location.href='https://example.com/link14'">Link 14</button>
-        <button onclick="window.location.href='https://example.com/link15'">Link 15</button>
-        <button onclick="window.location.href='https://example.com/link16'">Link 16</button>
-        <button onclick="window.location.href='https://example.com/link17'">Link 17</button>
-        <button onclick="window.location.href='https://example.com/link18'">Link 18</button>
-        <button onclick="window.location.href='https://example.com/link19'">Link 19</button>
-        <button onclick="window.location.href='https://example.com/link20'">Link 20</button>
+        <h2>Author Richard</h2>
+        <button onclick="window.location.href='w1lab_logreg_timediff.html'">Log Regression and time difference</button>
+        <button onclick="window.location.href='w2lab_stockprice_logreg.html'">Stock Price and Log reg</button>
+        <button onclick="window.location.href='w3lab_lasso.html'">Lasso and ridge Regression</button>
+        <button onclick="window.location.href='w4lab_dttree.html'">DecisionTreeClassifier</button>
+        <button onclick="window.location.href='w5lab_smote.html'">Oversampling, Undersampling and SMOTE</button>
+        <button onclick="window.location.href='w6lab_neural.html'">Neural Network,RNN, Pytorch</button>
+        <button onclick="window.location.href='w7lab_openai.html'">Large language model</button>
+        <button onclick="window.location.href='w8lab_ensemble.html'">Random Forest, Ensemble</button>
+        <button onclick="window.location.href='w9lab_clustering.html'">Clustering</button>
+        <button onclick="window.location.href='https://example.com/link20'">Reinforced Learning</button>
     </div>
 </section>
+
+<!-- Third section -->
+<section id="subpage3">
+    <h1>Other Material</h1>
+    <div>
+        <h2>Links</h2>
+        <button onclick="window.location.href='ISLP_website_modified'">textbook</button>
+        <!-- Content for the third section -->
+    </div>
 
 </body>
 </html>
